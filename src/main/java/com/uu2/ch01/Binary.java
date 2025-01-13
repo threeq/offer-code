@@ -1,6 +1,7 @@
 package com.uu2.ch01;
 
 public class Binary {
+    // 题2
     public String add(String a, String b) {
         int i = a.length() - 1;
         int j = b.length() - 1;
@@ -24,6 +25,7 @@ public class Binary {
         return result.reverse().toString();
     }
 
+    // 题3
     public int[] countBits1(int num) {
         int[] result = new int[num + 1];
         for (int i = 0; i <= num; i++) {
@@ -52,6 +54,7 @@ public class Binary {
         return result;
     }
 
+    // 题4
     public int singleNumber2(int[] nums) {
         int result = 0;
         for (int i = 0; i < nums.length; i++) {

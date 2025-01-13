@@ -1,6 +1,7 @@
 package com.uu2.ch01;
 
 public class Strings {
+    // 题5
     public int maxProduct1(String[] words){
         boolean[][] flag = new boolean[words.length][26];
         for (int i = 0; i < words.length; i++) {
