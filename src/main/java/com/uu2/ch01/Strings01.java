@@ -1,6 +1,6 @@
 package com.uu2.ch01;
 
-public class Strings {
+public class Strings01 {
     // 题5
     public int maxProduct1(String[] words){
         boolean[][] flag = new boolean[words.length][26];
