@@ -1,12 +1,15 @@
-package com.uu2.ch07;
+package com.uu2.ch08;
 
 
 public class TreeNode {
-    TreeNode left;
-    TreeNode right;
-    int val;
+    public TreeNode left;
+    public TreeNode right;
+    public int val;
 
-    TreeNode(int val) {
+    public TreeNode() {
+    }
+
+    public TreeNode(int val) {
         this.val = val;
     }
 
